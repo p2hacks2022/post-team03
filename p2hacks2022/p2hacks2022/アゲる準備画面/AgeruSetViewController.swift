@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  p2hacks2022
+//
+//  Created by 児玉拓海 on 2022/12/10.
+//
+
+import UIKit
+
+class AgeruSetController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
