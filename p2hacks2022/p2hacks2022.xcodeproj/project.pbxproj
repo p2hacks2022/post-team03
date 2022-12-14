@@ -16,9 +16,10 @@
 		7F1B1DAA29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
+		7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD113F92949FD6A007497BE /* niku.ttf */; };
 		7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA372944683900AC32CB /* AppDelegate.swift */; };
 		7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA392944683900AC32CB /* SceneDelegate.swift */; };
-		7F8BAA3C2944683900AC32CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* HomeViewController.swift */; };
+		7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */; };
 		7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3D2944683900AC32CB /* Title.storyboard */; };
 		7F8BAA422944683900AC32CB /* p2hacks2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA402944683900AC32CB /* p2hacks2022.xcdatamodeld */; };
 		7F8BAA442944683A00AC32CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA432944683A00AC32CB /* Assets.xcassets */; };
@@ -29,9 +30,9 @@
 		7F8BAA702947397100AC32CB /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA6F2947397100AC32CB /* TitleViewController.swift */; };
 		7F8BAA712947397100AC32CB /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA6F2947397100AC32CB /* TitleViewController.swift */; };
 		7F8BAA722947397100AC32CB /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA6F2947397100AC32CB /* TitleViewController.swift */; };
-		7F8BAA742947399400AC32CB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* Home.storyboard */; };
-		7F8BAA752947399400AC32CB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* Home.storyboard */; };
-		7F8BAA762947399400AC32CB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* Home.storyboard */; };
+		7F8BAA742947399400AC32CB /* AgeruSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* AgeruSet.storyboard */; };
+		7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* AgeruSet.storyboard */; };
+		7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA732947399400AC32CB /* AgeruSet.storyboard */; };
 		7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA7829473A1A00AC32CB /* AgeruViewController.swift */; };
 		7F8BAA7A29473A1A00AC32CB /* AgeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA7829473A1A00AC32CB /* AgeruViewController.swift */; };
 		7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA7829473A1A00AC32CB /* AgeruViewController.swift */; };
@@ -41,6 +42,14 @@
 		7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA8029473A4400AC32CB /* AgerareruViewController.swift */; };
 		7F8BAA8229473A4400AC32CB /* AgerareruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA8029473A4400AC32CB /* AgerareruViewController.swift */; };
 		7F8BAA8329473A4400AC32CB /* AgerareruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA8029473A4400AC32CB /* AgerareruViewController.swift */; };
+		7FD113EF2949FB95007497BE /* AgeruPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */; };
+		7FD113F02949FB9D007497BE /* AgeruSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */; };
+		7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */; };
+		7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */; };
+		7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */; };
+		7FD113F52949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
+		7FD113F62949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
+		7FD113F72949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +76,7 @@
 		7F8BAA342944683900AC32CB /* p2hacks2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p2hacks2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8BAA372944683900AC32CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8BAA392944683900AC32CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F8BAA3B2944683900AC32CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruSetViewController.swift; sourceTree = "<group>"; };
 		7F8BAA3E2944683900AC32CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Title.storyboard; sourceTree = "<group>"; };
 		7F8BAA412944683900AC32CB /* p2hacks2022.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = p2hacks2022.xcdatamodel; sourceTree = "<group>"; };
 		7F8BAA432944683A00AC32CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,10 +88,13 @@
 		7F8BAA5B2944683B00AC32CB /* p2hacks2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p2hacks2022UITests.swift; sourceTree = "<group>"; };
 		7F8BAA5D2944683B00AC32CB /* p2hacks2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p2hacks2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7F8BAA6F2947397100AC32CB /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
-		7F8BAA732947399400AC32CB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7F8BAA732947399400AC32CB /* AgeruSet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruSet.storyboard; sourceTree = "<group>"; };
 		7F8BAA7829473A1A00AC32CB /* AgeruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruViewController.swift; sourceTree = "<group>"; };
 		7F8BAA7C29473A2800AC32CB /* Ageru.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ageru.storyboard; sourceTree = "<group>"; };
 		7F8BAA8029473A4400AC32CB /* AgerareruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgerareruViewController.swift; sourceTree = "<group>"; };
+		7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPopup.storyboard; sourceTree = "<group>"; };
+		7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruPopupViewController.swift; sourceTree = "<group>"; };
+		7FD113F92949FD6A007497BE /* niku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = niku.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +159,11 @@
 				7F8BAA372944683900AC32CB /* AppDelegate.swift */,
 				7F8BAA392944683900AC32CB /* SceneDelegate.swift */,
 				7F8BAA77294739A400AC32CB /* Title */,
-				7F8BAA6A2947387E00AC32CB /* HOME画面 */,
+				7F8BAA6A2947387E00AC32CB /* アゲる準備画面 */,
 				7F8BAA8829473AB600AC32CB /* あげる */,
 				7F8BAA8929473ACF00AC32CB /* あげられる */,
 				7F1B1DA829473BA20057D568 /* 過去あげ */,
+				7FD113F82949FD1C007497BE /* fonts */,
 				7F8BAA432944683A00AC32CB /* Assets.xcassets */,
 				7F8BAA482944683A00AC32CB /* Info.plist */,
 				7F8BAA402944683900AC32CB /* p2hacks2022.xcdatamodeld */,
@@ -175,13 +188,16 @@
 			path = p2hacks2022UITests;
 			sourceTree = "<group>";
 		};
-		7F8BAA6A2947387E00AC32CB /* HOME画面 */ = {
+		7F8BAA6A2947387E00AC32CB /* アゲる準備画面 */ = {
 			isa = PBXGroup;
 			children = (
-				7F8BAA3B2944683900AC32CB /* HomeViewController.swift */,
-				7F8BAA732947399400AC32CB /* Home.storyboard */,
+				7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */,
+				7F8BAA732947399400AC32CB /* AgeruSet.storyboard */,
+				7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */,
+				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
 			);
-			path = "HOME画面";
+			name = "アゲる準備画面";
+			path = "アゲる準備画面";
 			sourceTree = "<group>";
 		};
 		7F8BAA77294739A400AC32CB /* Title */ = {
@@ -211,6 +227,14 @@
 			);
 			name = "あげられる";
 			path = "あげられる";
+			sourceTree = "<group>";
+		};
+		7FD113F82949FD1C007497BE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7FD113F92949FD6A007497BE /* niku.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,10 +341,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
 				7F8BAA472944683A00AC32CB /* LaunchScreen.storyboard in Resources */,
-				7F8BAA742947399400AC32CB /* Home.storyboard in Resources */,
+				7F8BAA742947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA442944683A00AC32CB /* Assets.xcassets in Resources */,
 				7F8BAA7D29473A2800AC32CB /* Ageru.storyboard in Resources */,
+				7FD113EF2949FB95007497BE /* AgeruPopup.storyboard in Resources */,
 				7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */,
 				7F1B1DA129473B0E0057D568 /* Agerareru.storyboard in Resources */,
 				7F1B1DAA29473BC90057D568 /* PastAge.storyboard in Resources */,
@@ -331,9 +357,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8BAA752947399400AC32CB /* Home.storyboard in Resources */,
+				7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */,
+				7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA229473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +369,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8BAA762947399400AC32CB /* Home.storyboard in Resources */,
+				7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */,
+				7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA329473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,13 +384,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8BAA3C2944683900AC32CB /* HomeViewController.swift in Sources */,
+				7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */,
 				7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F1B1DA529473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */,
 				7F8BAA422944683900AC32CB /* p2hacks2022.xcdatamodeld in Sources */,
 				7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */,
+				7FD113F52949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
 				7F8BAA702947397100AC32CB /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,9 +402,11 @@
 			files = (
 				7F8BAA522944683B00AC32CB /* p2hacks2022Tests.swift in Sources */,
 				7F1B1DA629473B9B0057D568 /* PastAgeViewController.swift in Sources */,
+				7FD113F02949FB9D007497BE /* AgeruSetViewController.swift in Sources */,
 				7F8BAA8229473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F8BAA7A29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F8BAA712947397100AC32CB /* TitleViewController.swift in Sources */,
+				7FD113F62949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,12 +414,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD113F72949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
 				7F1B1DA729473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7F8BAA5C2944683B00AC32CB /* p2hacks2022UITests.swift in Sources */,
 				7F8BAA5E2944683B00AC32CB /* p2hacks2022UITestsLaunchTests.swift in Sources */,
 				7F8BAA8329473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F8BAA722947397100AC32CB /* TitleViewController.swift in Sources */,
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
+				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +510,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Title;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -531,6 +566,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Title;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -552,7 +589,7 @@
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Title;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -579,7 +616,7 @@
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Title;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
