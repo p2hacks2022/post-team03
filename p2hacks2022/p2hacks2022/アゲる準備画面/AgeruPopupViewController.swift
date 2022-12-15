@@ -9,21 +9,18 @@ import UIKit
 
 class AgeruPopupViewController: UIViewController {
 
+    @IBOutlet weak var InRoomName: UITextField!
+    @IBOutlet weak var RoomNameTitle: UILabel!
+    @IBOutlet weak var PopupView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        RoomNameTitle.font = UIFont(name: "07NikumaruFont", size: 28)
+        PopupView.layer.cornerRadius = PopupView.frame.height * 0.05
+        InRoomName.layer.cornerRadius = InRoomName.frame.height * 0.1
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tapBackButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
 }
