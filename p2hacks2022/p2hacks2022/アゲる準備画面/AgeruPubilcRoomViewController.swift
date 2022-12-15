@@ -13,15 +13,21 @@ class AgeruPubilcRoomViewController: UIViewController {
     @IBOutlet weak var privateRoom: UILabel!
     @IBOutlet weak var publicRoom: UILabel!
     @IBOutlet weak var RoomSearch: UIButton!
+    @IBOutlet weak var AgeruTab: UIImageView!
+    @IBOutlet weak var AgaruTab: UIButton!
+    @IBOutlet weak var PastAge: UIButton!
+    @IBOutlet weak var TabBar: UIImageView!
+    
+    let checkNum = 2
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
-        //スクリーンの高さ
-        let screenHeight = Float(UIScreen.main.bounds.size.height)
         let widthGap = (screenWidth - Float(seg.frame.width)) / 2
 
+        
+        
         seg.frame = CGRect.init(x: Int(widthGap), y:70, width: Int(seg.frame.width), height: 50)
         seg.backgroundColor = UIColor(hex: "ffffff")
         seg.selectedSegmentTintColor = UIColor(hex: "EF463F")
@@ -46,5 +52,18 @@ class AgeruPubilcRoomViewController: UIViewController {
             return;
         }
     }
-    
+    @IBAction func tapAgaruTab(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Agerareru", bundle: nil)
+        let selectTabView = storyboard.instantiateViewController(withIdentifier: "agaru") as! AgerareruViewController
+        selectTabView.checkNum = checkNum
+        selectTabView.modalPresentationStyle = .fullScreen
+        self.present(selectTabView, animated: false, completion: nil)
+    }
+    @IBAction func tapPastAgeTab(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "PastAge", bundle: nil)
+        let selectTabView = storyboard.instantiateViewController(withIdentifier: "pastage") as! PastAgeViewController
+        selectTabView.checkNum = checkNum
+        selectTabView.modalPresentationStyle = .fullScreen
+        self.present(selectTabView, animated: false, completion: nil)
+    }
 }

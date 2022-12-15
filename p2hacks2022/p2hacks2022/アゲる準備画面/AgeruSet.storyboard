@@ -18,28 +18,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_left" translatesAutoresizingMaskIntoConstraints="NO" id="31d-9w-AHd">
-                                <rect key="frame" x="52" y="255" width="138" height="317"/>
+                                <rect key="frame" x="49" y="255" width="136" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_right" translatesAutoresizingMaskIntoConstraints="NO" id="Zpt-Ms-NtB">
-                                <rect key="frame" x="203" y="255" width="138" height="317"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="siriai_hukidashi" translatesAutoresizingMaskIntoConstraints="NO" id="uax-MG-ewN">
-                                <rect key="frame" x="52" y="140" width="289" height="118"/>
+                                <rect key="frame" x="199" y="255" width="136" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5C-Bi-1bv">
                                 <rect key="frame" x="39" y="595" width="315" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="アゲ部屋を探す"/>
+                                <state key="normal" image="アゲ部屋を探す"/>
                                 <connections>
-                                    <segue destination="SdS-Me-hGR" kind="show" id="Bgx-f7-e3x"/>
+                                    <action selector="tapRoomSearch:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="xue-dv-rEb"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MaM-q9-exc">
-                                <rect key="frame" x="64" y="106" width="265" height="32"/>
+                                <rect key="frame" x="60" y="103" width="264" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
@@ -59,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="鍵部屋" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv3-75-2AN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="鍵部屋" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv3-75-2AN">
                                 <rect key="frame" x="55" y="70" width="265" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -71,13 +67,43 @@
                                 <rect key="frame" x="39" y="690" width="315" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AGERU_ORENGE" translatesAutoresizingMaskIntoConstraints="NO" id="FFA-Ki-pjV">
+                                <rect key="frame" x="63" y="695" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5j-4j-11v">
+                                <rect key="frame" x="263" y="695" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="KAKOAGE_SIRO"/>
+                                <connections>
+                                    <action selector="tapPastAgeTab:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="C7i-gB-72u"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="siriai_hukidashi" translatesAutoresizingMaskIntoConstraints="NO" id="uax-MG-ewN">
+                                <rect key="frame" x="52" y="140" width="289" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHn-Ei-nD4">
+                                <rect key="frame" x="164" y="695" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="AGARU_SIRO"/>
+                                <connections>
+                                    <action selector="tapAgaruTab:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5Yh-B0-3Wq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="AccentColor"/>
                     </view>
                     <connections>
+                        <outlet property="AgaruTab" destination="gHn-Ei-nD4" id="iSV-QA-zoc"/>
+                        <outlet property="AgeruTab" destination="FFA-Ki-pjV" id="shS-Jo-ytg"/>
                         <outlet property="Hukidashi" destination="uax-MG-ewN" id="GK8-27-2Is"/>
+                        <outlet property="PastAge" destination="P5j-4j-11v" id="5lg-KT-hL1"/>
                         <outlet property="RoomSearch" destination="x5C-Bi-1bv" id="c9h-fh-D52"/>
+                        <outlet property="TabBar" destination="mkS-p8-AfW" id="3s0-Ho-ZNW"/>
                         <outlet property="privateRoom" destination="pv3-75-2AN" id="8Q0-oO-GgA"/>
                         <outlet property="publicRoom" destination="Orm-Ad-0gc" id="KD6-Ye-c7w"/>
                         <outlet property="seg" destination="MaM-q9-exc" id="hBg-TH-Wk0"/>
@@ -85,20 +111,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194.6564885496183" y="-69.014084507042256"/>
-        </scene>
-        <!--AgeruPopup-->
-        <scene sceneID="cVP-gz-8He">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AgeruPopup" id="SdS-Me-hGR" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ZRk-7b-Gdt"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="efX-dU-XW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="979" y="-69"/>
+            <point key="canvasLocation" x="62" y="-175"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AGARU_SIRO" width="240" height="240"/>
+        <image name="AGERU_ORENGE" width="240" height="240"/>
+        <image name="KAKOAGE_SIRO" width="240" height="240"/>
         <image name="SIROWAKU" width="1308" height="280"/>
         <image name="agebito_left" width="486" height="1325"/>
         <image name="agebito_right" width="486" height="1325"/>

@@ -27,6 +27,12 @@
 		7F66CD66294B6C340068BCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA432944683A00AC32CB /* Assets.xcassets */; };
 		7F66CD67294B6C340068BCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA432944683A00AC32CB /* Assets.xcassets */; };
 		7F66CD68294B6C340068BCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8BAA432944683A00AC32CB /* Assets.xcassets */; };
+		7F66CD6C294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */; };
+		7F66CD6D294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */; };
+		7F66CD6E294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */; };
+		7F66CD70294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
+		7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
+		7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
 		7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA372944683900AC32CB /* AppDelegate.swift */; };
 		7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA392944683900AC32CB /* SceneDelegate.swift */; };
 		7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */; };
@@ -85,6 +91,8 @@
 		7F66CD5A294B41300068BCEC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		7F66CD5E294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruPubilcRoomViewController.swift; sourceTree = "<group>"; };
 		7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPublicRoom.storyboard; sourceTree = "<group>"; };
+		7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomViewController.swift; sourceTree = "<group>"; };
+		7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoom.storyboard; sourceTree = "<group>"; };
 		7F8BAA342944683900AC32CB /* p2hacks2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p2hacks2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8BAA372944683900AC32CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8BAA392944683900AC32CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,10 +214,10 @@
 			children = (
 				7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */,
 				7F8BAA732947399400AC32CB /* AgeruSet.storyboard */,
-				7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */,
-				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
 				7F66CD5E294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift */,
 				7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */,
+				7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */,
+				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
 			);
 			name = "アゲる準備画面";
 			path = "アゲる準備画面";
@@ -239,6 +247,8 @@
 			children = (
 				7F8BAA8029473A4400AC32CB /* AgerareruViewController.swift */,
 				7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */,
+				7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */,
+				7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */,
 			);
 			name = "あげられる";
 			path = "あげられる";
@@ -360,6 +370,7 @@
 				7F8BAA472944683A00AC32CB /* LaunchScreen.storyboard in Resources */,
 				7F8BAA742947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA7D29473A2800AC32CB /* Ageru.storyboard in Resources */,
+				7F66CD70294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F66CD67294B6C340068BCEC /* Assets.xcassets in Resources */,
 				7FD113EF2949FB95007497BE /* AgeruPopup.storyboard in Resources */,
 				7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */,
@@ -378,6 +389,7 @@
 				7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */,
 				7F66CD64294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
 				7F66CD66294B6C340068BCEC /* Assets.xcassets in Resources */,
+				7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA229473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
@@ -392,6 +404,7 @@
 				7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */,
 				7F66CD65294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
 				7F66CD68294B6C340068BCEC /* Assets.xcassets in Resources */,
+				7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA329473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
@@ -405,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */,
+				7F66CD6C294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 				7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F1B1DA529473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
@@ -426,6 +440,7 @@
 				7F1B1DA629473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7FD113F02949FB9D007497BE /* AgeruSetViewController.swift in Sources */,
 				7F8BAA8229473A4400AC32CB /* AgerareruViewController.swift in Sources */,
+				7F66CD6D294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 				7F8BAA7A29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F66CD60294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F8BAA712947397100AC32CB /* TitleViewController.swift in Sources */,
@@ -446,6 +461,7 @@
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,
 				7F66CD61294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
+				7F66CD6E294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
