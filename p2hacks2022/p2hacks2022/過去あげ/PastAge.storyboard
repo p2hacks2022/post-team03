@@ -42,6 +42,13 @@
                                 <rect key="frame" x="263" y="695" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="部屋名で検索" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FFR-ok-gMN">
+                                <rect key="frame" x="57" y="75" width="278" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="AccentColor"/>
@@ -49,6 +56,7 @@
                     <connections>
                         <outlet property="AgaruTab" destination="vRQ-7D-M51" id="cdo-gl-YvF"/>
                         <outlet property="AgeruTab" destination="XOG-eA-gVH" id="WUO-Fb-KPJ"/>
+                        <outlet property="PastAgeSearch" destination="FFR-ok-gMN" id="l7X-L3-HrH"/>
                         <outlet property="PastAgeTab" destination="dUM-m0-6il" id="Jbc-o4-HkO"/>
                         <outlet property="TabBar" destination="gcP-WA-luI" id="t20-2O-wTX"/>
                     </connections>

@@ -14,6 +14,7 @@ class PastAgeViewController: UIViewController {
     @IBOutlet weak var AgaruTab: UIButton!
     @IBOutlet weak var PastAgeTab: UIImageView!
     @IBOutlet weak var TabBar: UIImageView!
+    @IBOutlet weak var PastAgeSearch: UITextField!
     
     let TabIconSize = 65
     let TabIconY = 695
@@ -23,13 +24,15 @@ class PastAgeViewController: UIViewController {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
-        print(screenWidth)
         //スクリーンの高さ
-        let screenHeight = Float(UIScreen.main.bounds.size.height)
-        print(screenHeight)
+//        let screenHeight = Float(UIScreen.main.bounds.size.height)
         //それぞれUIの画面に対する中央配置するための値
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
         let widthTabBarCenter = (screenWidth - 315) / 2
+        
+        PastAgeSearch.frame = CGRect(x: Int(widthTabBarCenter), y: 75, width: 315, height: 55)
+        PastAgeSearch.layer.cornerRadius = 10
+        
         //Tabのアイテムのサイズと位置を設定
         AgeruTab.frame = CGRect(x: 60, y: TabIconY, width: TabIconSize, height: TabIconSize)
         AgaruTab.frame = CGRect(x: Int(widthTabIconCeter), y: TabIconY, width: TabIconSize, height: TabIconSize)
