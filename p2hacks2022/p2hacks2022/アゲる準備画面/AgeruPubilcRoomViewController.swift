@@ -28,10 +28,8 @@ class AgeruPubilcRoomViewController: UIViewController {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
-        print(screenWidth)
         //スクリーンの高さ
-        let screenHeight = Float(UIScreen.main.bounds.size.height)
-        print(screenHeight)
+//        let screenHeight = Float(UIScreen.main.bounds.size.height)
         //それぞれUIの画面に対する中央配置するための値
         let widthGap = (screenWidth - Float(seg.frame.width)) / 2
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
@@ -91,7 +89,10 @@ class AgeruPubilcRoomViewController: UIViewController {
         self.present(selectTabView, animated: false, completion: nil)
     }
     @IBAction func tapRoomSearch(_ sender: Any) {
-        
+        let storyboard = UIStoryboard(name: "RoomSelect", bundle: nil)
+        let selectroom = storyboard.instantiateViewController(withIdentifier: "roomselect") as! RoomSelectViewController
+        selectroom.modalTransitionStyle = .flipHorizontal
+        selectroom.modalPresentationStyle = .fullScreen
+        self.present(selectroom, animated: true, completion: nil)
     }
-    
 }

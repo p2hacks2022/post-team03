@@ -25,10 +25,8 @@ class AgerareruViewController: UIViewController {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
-        print(screenWidth)
         //スクリーンの高さ
-        let screenHeight = Float(UIScreen.main.bounds.size.height)
-        print(screenHeight)
+//        let screenHeight = Float(UIScreen.main.bounds.size.height)
         //それぞれUIの画面に対する中央配置するための値
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
         let widthTabBarCenter = (screenWidth - 315) / 2
