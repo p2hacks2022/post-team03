@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42D313AE294CB3080056FDBD /* DoAgeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D313AD294CB3080056FDBD /* DoAgeruViewController.swift */; };
 		7F1B1DA129473B0E0057D568 /* Agerareru.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */; };
 		7F1B1DA229473B0E0057D568 /* Agerareru.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */; };
 		7F1B1DA329473B0E0057D568 /* Agerareru.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */; };
@@ -91,6 +92,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42D313AD294CB3080056FDBD /* DoAgeruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoAgeruViewController.swift; sourceTree = "<group>"; };
 		7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Agerareru.storyboard; sourceTree = "<group>"; };
 		7F1B1DA429473B9B0057D568 /* PastAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastAgeViewController.swift; sourceTree = "<group>"; };
 		7F1B1DA929473BC90057D568 /* PastAge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastAge.storyboard; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
 				7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */,
 				7F632F83294BFFB600578F01 /* RoomSelect.storyboard */,
+				42D313AD294CB3080056FDBD /* DoAgeruViewController.swift */,
 			);
 			name = "アゲる準備画面";
 			path = "アゲる準備画面";
@@ -434,6 +437,7 @@
 				7F66CD6C294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 				7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F1B1DA529473B9B0057D568 /* PastAgeViewController.swift in Sources */,
+				42D313AE294CB3080056FDBD /* DoAgeruViewController.swift in Sources */,
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F66CD5F294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */,
@@ -641,6 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL67KBGNQ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DO アゲ！";
@@ -669,6 +674,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL67KBGNQ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DO アゲ！";
