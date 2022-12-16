@@ -16,18 +16,43 @@ class AgeruSetController: UIViewController {
     @IBOutlet weak var Hukidashi: UIImageView!
     @IBOutlet weak var AgeruTab: UIImageView!
     @IBOutlet weak var AgaruTab: UIButton!
-    @IBOutlet weak var PastAge: UIButton!
+    @IBOutlet weak var PastAgeTab: UIButton!
     @IBOutlet weak var TabBar: UIImageView!
+    
     let checkNum = 1
+    let TabIconSize = 65
+    let TabIconY = 695
+    let TabBarY = 690
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
+        print(screenWidth)
+        //スクリーンの高さ
+        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        print(screenHeight)
+        //それぞれUIの画面に対する中央配置するための値
         let widthGap = (screenWidth - Float(seg.frame.width)) / 2
+        let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
+        let widthHukidashiCenter = (screenWidth - 290) / 2
+        let widthTabBarCenter = (screenWidth - 315) / 2
+        //吹き出しのサイズと位置の設定
+        Hukidashi.frame = CGRect(x: Int(widthHukidashiCenter), y: 145, width: 290, height: 118)
+        //Tabのアイテムのサイズと位置を設定
+        AgeruTab.frame = CGRect(x: 60, y: TabIconY, width: TabIconSize, height: TabIconSize)
+        AgaruTab.frame = CGRect(x: Int(widthTabIconCeter), y: TabIconY, width: TabIconSize, height: TabIconSize)
+        PastAgeTab.frame = CGRect(x: 315 - TabIconSize, y: TabIconY, width: TabIconSize, height: TabIconSize)
+        //TabのBarのサイズと位置の設定
+        TabBar.frame = CGRect(x: Int(widthTabBarCenter), y: TabIconY - 5, width: 315, height: 75)
+        //「部屋を探す」ボタンのサイズと配置の設定
+        RoomSearch.frame = CGRect(x: Int(widthTabBarCenter), y: TabIconY - 100, width: 315, height: 67)
         
-        
-        
+        /*
+         SegmentedControlのサイズと位置の設定
+         背景色と選択時と非選択時のとフォント、色の設定
+         それぞれのラベルのサイズと位置の設定
+         */
         seg.frame = CGRect.init(x: Int(widthGap), y:70, width: Int(seg.frame.width), height: 50)
         seg.backgroundColor = UIColor(hex: "ffffff")
         seg.selectedSegmentTintColor = UIColor(hex: "EF463F")

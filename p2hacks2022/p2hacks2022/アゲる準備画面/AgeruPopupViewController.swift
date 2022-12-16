@@ -18,8 +18,8 @@ class AgeruPopupViewController: UIViewController {
         RoomNameTitle.font = UIFont(name: "07NikumaruFont", size: 28)
         PopupView.layer.cornerRadius = 10
         InRoomName.layer.cornerRadius = 10
-        
     }
+    
     @IBAction func tapBackButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

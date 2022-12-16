@@ -16,6 +16,12 @@
 		7F1B1DAA29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
+		7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
+		7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
+		7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
+		7F632F84294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
+		7F632F85294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
+		7F632F86294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
 		7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD113F92949FD6A007497BE /* niku.ttf */; };
 		7F66CD5B294B41300068BCEC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66CD5A294B41300068BCEC /* UIColor.swift */; };
 		7F66CD5F294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66CD5E294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift */; };
@@ -88,6 +94,8 @@
 		7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Agerareru.storyboard; sourceTree = "<group>"; };
 		7F1B1DA429473B9B0057D568 /* PastAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastAgeViewController.swift; sourceTree = "<group>"; };
 		7F1B1DA929473BC90057D568 /* PastAge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastAge.storyboard; sourceTree = "<group>"; };
+		7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
+		7F632F83294BFFB600578F01 /* RoomSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSelect.storyboard; sourceTree = "<group>"; };
 		7F66CD5A294B41300068BCEC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		7F66CD5E294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruPubilcRoomViewController.swift; sourceTree = "<group>"; };
 		7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPublicRoom.storyboard; sourceTree = "<group>"; };
@@ -218,6 +226,8 @@
 				7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */,
 				7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */,
 				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
+				7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */,
+				7F632F83294BFFB600578F01 /* RoomSelect.storyboard */,
 			);
 			name = "アゲる準備画面";
 			path = "アゲる準備画面";
@@ -367,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
+				7F632F84294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F8BAA472944683A00AC32CB /* LaunchScreen.storyboard in Resources */,
 				7F8BAA742947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA7D29473A2800AC32CB /* Ageru.storyboard in Resources */,
@@ -388,6 +399,7 @@
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */,
 				7F66CD64294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
+				7F632F85294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F66CD66294B6C340068BCEC /* Assets.xcassets in Resources */,
 				7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
@@ -403,6 +415,7 @@
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */,
 				7F66CD65294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
+				7F632F86294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F66CD68294B6C340068BCEC /* Assets.xcassets in Resources */,
 				7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
@@ -424,6 +437,7 @@
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F66CD5F294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */,
+				7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,
 				7F8BAA422944683900AC32CB /* p2hacks2022.xcdatamodeld in Sources */,
 				7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */,
 				7FD113F52949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
@@ -445,6 +459,7 @@
 				7F66CD60294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F8BAA712947397100AC32CB /* TitleViewController.swift in Sources */,
 				7FD113F62949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
+				7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +476,7 @@
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,
 				7F66CD61294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
+				7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,
 				7F66CD6E294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

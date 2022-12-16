@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SIROWAKU" translatesAutoresizingMaskIntoConstraints="NO" id="gcP-WA-luI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SIROWAKU" translatesAutoresizingMaskIntoConstraints="NO" id="gcP-WA-luI" userLabel="TabBar">
                                 <rect key="frame" x="39" y="690" width="315" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
@@ -50,7 +50,7 @@
                         <outlet property="AgaruTab" destination="vRQ-7D-M51" id="cdo-gl-YvF"/>
                         <outlet property="AgeruTab" destination="XOG-eA-gVH" id="WUO-Fb-KPJ"/>
                         <outlet property="PastAgeTab" destination="dUM-m0-6il" id="Jbc-o4-HkO"/>
-                        <outlet property="TabBer" destination="gcP-WA-luI" id="WqW-k2-BdW"/>
+                        <outlet property="TabBar" destination="gcP-WA-luI" id="t20-2O-wTX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
