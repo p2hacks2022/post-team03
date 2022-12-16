@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class CreateRoomViewController: UIViewController {
 
@@ -25,4 +26,9 @@ class CreateRoomViewController: UIViewController {
     @IBAction func tapBackButoon(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func tapRoomCreate(_ sender: Any) {
+        
+    }
+    
 }

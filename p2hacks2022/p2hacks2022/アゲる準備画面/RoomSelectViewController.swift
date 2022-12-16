@@ -7,12 +7,12 @@
 
 import UIKit
 
-class RoomSelectViewController: UIViewController {
 
+class RoomSelectViewController: UIViewController {
+    
     @IBOutlet weak var RoomSelectTitle: UILabel!
     @IBOutlet weak var BackButton: UIButton!
     @IBOutlet weak var SearchRoomName: UITextField!
-    
     let TitleY = 80
     let SearchFieldY = 170
     
