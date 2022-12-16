@@ -31,11 +31,11 @@
                                 </connections>
                             </segmentedControl>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="koukai_hukidashi" translatesAutoresizingMaskIntoConstraints="NO" id="qE8-VO-I57">
-                                <rect key="frame" x="52" y="140" width="289" height="118"/>
+                                <rect key="frame" x="51" y="140" width="289" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_rightdown" translatesAutoresizingMaskIntoConstraints="NO" id="7db-Fv-Ytn">
-                                <rect key="frame" x="283" y="379" width="109" height="360"/>
+                                <rect key="frame" x="282" y="379" width="109" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_leftup" translatesAutoresizingMaskIntoConstraints="NO" id="7YF-Zu-yTc">
@@ -43,7 +43,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_rightup" translatesAutoresizingMaskIntoConstraints="NO" id="YMR-2l-MdX">
-                                <rect key="frame" x="259" y="187" width="133" height="366"/>
+                                <rect key="frame" x="259" y="187" width="132" height="366"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agebito_leftdown" translatesAutoresizingMaskIntoConstraints="NO" id="JPl-CH-d5V">
@@ -65,11 +65,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SIROWAKU" translatesAutoresizingMaskIntoConstraints="NO" id="cdD-eu-AI2">
-                                <rect key="frame" x="39" y="690" width="315" height="75"/>
+                                <rect key="frame" x="38" y="690" width="316" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x34-pX-uKJ">
-                                <rect key="frame" x="164" y="695" width="65" height="65"/>
+                                <rect key="frame" x="164" y="695" width="64" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="AGARU_SIRO"/>
@@ -78,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvo-qD-JBs">
-                                <rect key="frame" x="263" y="695" width="65" height="65"/>
+                                <rect key="frame" x="262" y="695" width="66" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="KAKOAGE_SIRO"/>
@@ -87,18 +87,21 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AGERU_ORENGE" translatesAutoresizingMaskIntoConstraints="NO" id="Nap-ma-zCM">
-                                <rect key="frame" x="63" y="695" width="65" height="65"/>
+                                <rect key="frame" x="63" y="695" width="64" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="center_earth" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-DB-dM5">
-                                <rect key="frame" x="98" y="329" width="196" height="195"/>
+                                <rect key="frame" x="97" y="329" width="196" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSR-9J-JK9">
-                                <rect key="frame" x="39" y="595" width="315" height="67"/>
+                                <rect key="frame" x="38" y="595" width="316" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="アゲ部屋を探す"/>
+                                <connections>
+                                    <action selector="tapRoomSearch:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="73q-GI-RVH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -107,7 +110,8 @@
                     <connections>
                         <outlet property="AgaruTab" destination="x34-pX-uKJ" id="07O-zX-XgD"/>
                         <outlet property="AgeruTab" destination="Nap-ma-zCM" id="rf0-l5-Ehp"/>
-                        <outlet property="PastAge" destination="Tvo-qD-JBs" id="p7P-wD-1d8"/>
+                        <outlet property="Hukidashi" destination="qE8-VO-I57" id="LcK-1c-qFi"/>
+                        <outlet property="PastAgeTab" destination="Tvo-qD-JBs" id="2y1-26-PXz"/>
                         <outlet property="RoomSearch" destination="rSR-9J-JK9" id="ZOg-KO-Fng"/>
                         <outlet property="TabBar" destination="cdD-eu-AI2" id="YTl-YA-Nkz"/>
                         <outlet property="privateRoom" destination="i4J-jB-A75" id="zm4-4w-DQO"/>

@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SIROWAKU" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-Tx-aXl">
-                                <rect key="frame" x="39" y="690" width="315" height="75"/>
+                                <rect key="frame" x="39" y="690" width="314" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AGARU_ORANGE" translatesAutoresizingMaskIntoConstraints="NO" id="1J5-cM-ygd">
-                                <rect key="frame" x="164" y="695" width="65" height="65"/>
+                                <rect key="frame" x="163" y="695" width="66" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kN-ha-acc">
-                                <rect key="frame" x="63" y="695" width="65" height="65"/>
+                                <rect key="frame" x="62" y="695" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="AGERU_SIRO"/>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIQ-6a-jSx">
-                                <rect key="frame" x="263" y="695" width="65" height="65"/>
+                                <rect key="frame" x="262" y="695" width="66" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="KAKOAGE_SIRO"/>
@@ -43,14 +43,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agarouze_hukidashi" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-7P-4cN">
-                                <rect key="frame" x="52" y="80" width="289" height="118"/>
+                                <rect key="frame" x="51" y="80" width="289" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xaf-aD-tA4">
-                                <rect key="frame" x="39" y="595" width="315" height="67"/>
+                                <rect key="frame" x="40" y="595" width="314" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="アゲ部屋を作る"/>
+                                <connections>
+                                    <action selector="tapCreateRoom:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ZbD-eX-v3I"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agerarebito" translatesAutoresizingMaskIntoConstraints="NO" id="NRl-UR-rdn">
                                 <rect key="frame" x="8" y="214" width="376" height="358"/>
@@ -60,6 +63,13 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="AccentColor"/>
                     </view>
+                    <connections>
+                        <outlet property="AgaruTab" destination="1J5-cM-ygd" id="qUZ-bj-JJ9"/>
+                        <outlet property="AgeruTab" destination="1kN-ha-acc" id="aRq-5o-w9G"/>
+                        <outlet property="PastAgeTab" destination="AIQ-6a-jSx" id="gyJ-NJ-C5R"/>
+                        <outlet property="TabBar" destination="jIG-Tx-aXl" id="gWP-W4-F7k"/>
+                        <outlet property="createRoom" destination="Xaf-aD-tA4" id="dSh-42-2Zs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
