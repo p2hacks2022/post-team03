@@ -22,6 +22,12 @@
 		7F2FF89B294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
 		7F2FF89C294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
 		7F2FF89D294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
+		7F2FF89F294E75D1000752D2 /* SelectCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF89E294E75D1000752D2 /* SelectCheckViewController.swift */; };
+		7F2FF8A0294E75D1000752D2 /* SelectCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF89E294E75D1000752D2 /* SelectCheckViewController.swift */; };
+		7F2FF8A1294E75D1000752D2 /* SelectCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF89E294E75D1000752D2 /* SelectCheckViewController.swift */; };
+		7F2FF8A3294E75E8000752D2 /* SelectCheck.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */; };
+		7F2FF8A4294E75E8000752D2 /* SelectCheck.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */; };
+		7F2FF8A5294E75E8000752D2 /* SelectCheck.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */; };
 		7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
@@ -120,6 +126,8 @@
 		7F1B1DA929473BC90057D568 /* PastAge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastAge.storyboard; sourceTree = "<group>"; };
 		7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F2FF89A294D6782000752D2 /* title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = title.mp3; sourceTree = "<group>"; };
+		7F2FF89E294E75D1000752D2 /* SelectCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCheckViewController.swift; sourceTree = "<group>"; };
+		7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectCheck.storyboard; sourceTree = "<group>"; };
 		7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
 		7F632F83294BFFB600578F01 /* RoomSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSelect.storyboard; sourceTree = "<group>"; };
 		7F632FA5294D236100578F01 /* どうあげ 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "どうあげ 1.gif"; sourceTree = "<group>"; };
@@ -277,6 +285,8 @@
 				7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */,
 				7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */,
 				7F632F83294BFFB600578F01 /* RoomSelect.storyboard */,
+				7F2FF89E294E75D1000752D2 /* SelectCheckViewController.swift */,
+				7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */,
 			);
 			name = "アゲる準備画面";
 			path = "アゲる準備画面";
@@ -449,6 +459,7 @@
 				7F2FF897294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
 				7F66CD67294B6C340068BCEC /* Assets.xcassets in Resources */,
 				7FD113EF2949FB95007497BE /* AgeruPopup.storyboard in Resources */,
+				7F2FF8A3294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */,
 				7F66CD63294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
 				7F1B1DA129473B0E0057D568 /* Agerareru.storyboard in Resources */,
@@ -463,6 +474,7 @@
 				7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAB294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F2FF8A4294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FAF294D238500578F01 /* 横持ちロード.gif in Resources */,
 				7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */,
@@ -486,6 +498,7 @@
 				7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAC294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F2FF8A5294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FB0294D238500578F01 /* 横持ちロード.gif in Resources */,
 				7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */,
@@ -522,6 +535,7 @@
 				7FD113F52949FBCF007497BE /* AgeruPopupViewController.swift in Sources */,
 				7F8BAA702947397100AC32CB /* TitleViewController.swift in Sources */,
 				7F66CD5B294B41300068BCEC /* UIColor.swift in Sources */,
+				7F2FF89F294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2FF8A0294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 				7F8BAA522944683B00AC32CB /* p2hacks2022Tests.swift in Sources */,
 				7F1B1DA629473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7FD113F02949FB9D007497BE /* AgeruSetViewController.swift in Sources */,
@@ -553,6 +568,7 @@
 				7F8BAA8329473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F8BAA722947397100AC32CB /* TitleViewController.swift in Sources */,
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
+				7F2FF8A1294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,
 				7F66CD61294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,

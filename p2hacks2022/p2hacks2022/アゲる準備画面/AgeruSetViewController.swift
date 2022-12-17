@@ -8,7 +8,7 @@
 import UIKit
 
 class AgeruSetController: UIViewController {
-
+    
     @IBOutlet weak var seg: UISegmentedControl!
     @IBOutlet weak var privateRoom: UILabel!
     @IBOutlet weak var publicRoom: UILabel!
@@ -23,12 +23,20 @@ class AgeruSetController: UIViewController {
     let TabIconSize = 65
     let TabIconY = 695
     let TabBarY = 690
-    
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         //スクリーンの高さ
+        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        print(screenWidth)
+        print(screenHeight)
         //それぞれUIの画面に対する中央配置するための値
         let widthGap = (screenWidth - Float(seg.frame.width)) / 2
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
@@ -62,7 +70,7 @@ class AgeruSetController: UIViewController {
         publicRoom.textColor = UIColor(hex: "CCCCCC")
         publicRoom.font = UIFont(name: "07NikumaruFont", size: 20)
     }
-
+    
     @IBAction func tapSegment(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:

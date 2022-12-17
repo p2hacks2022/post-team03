@@ -21,6 +21,13 @@ class CreateRoomViewController: UIViewController {
     var num = 0
     let dateFormatter = DateFormatter()
     var numCount: Int!
+    
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
