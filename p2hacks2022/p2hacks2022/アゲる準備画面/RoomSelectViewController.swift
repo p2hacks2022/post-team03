@@ -22,22 +22,6 @@ class RoomSelectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //スクリーンの幅
-        let screenWidth = Float(UIScreen.main.bounds.size.width)
-        let TitleWidth = screenWidth - 97
-        //スクリーンの高さ
-        //        let screenHeight = Float(UIScreen.main.bounds.size.height)
-        let widthTitleCenter = (screenWidth - TitleWidth) / 2
-        
-        RoomSelectTitle.frame = CGRect(x: Int(widthTitleCenter), y: TitleY, width: Int(TitleWidth), height: 70)
-        RoomSelectTitle.font = UIFont(name: "07NikumaruFont", size: 27)
-        SearchRoomName.frame = CGRect(x: Int(widthTitleCenter), y: SearchFieldY, width: Int(TitleWidth), height: 55)
-        SearchRoomName.layer.cornerRadius = 10
-        BackButton.frame = CGRect(x: 25, y: 83, width: 65, height: 65)
-        
-    }
-    @IBAction func tapBackButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
         var ref: DatabaseReference!
         ref = Database.database().reference()
         
@@ -71,5 +55,21 @@ class RoomSelectViewController: UIViewController {
                 })
             }
         }
+        //スクリーンの幅
+        let screenWidth = Float(UIScreen.main.bounds.size.width)
+        let TitleWidth = screenWidth - 97
+        //スクリーンの高さ
+        //        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        let widthTitleCenter = (screenWidth - TitleWidth) / 2
+        
+        RoomSelectTitle.frame = CGRect(x: Int(widthTitleCenter), y: TitleY, width: Int(TitleWidth), height: 70)
+        RoomSelectTitle.font = UIFont(name: "07NikumaruFont", size: 27)
+        SearchRoomName.frame = CGRect(x: Int(widthTitleCenter), y: SearchFieldY, width: Int(TitleWidth), height: 55)
+        SearchRoomName.layer.cornerRadius = 10
+        BackButton.frame = CGRect(x: 25, y: 83, width: 65, height: 65)
+        
+    }
+    @IBAction func tapBackButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
