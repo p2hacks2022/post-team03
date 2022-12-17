@@ -8,11 +8,16 @@
 import UIKit
 
 class AgeruPopupViewController: UIViewController {
-
+    
     @IBOutlet weak var InRoomName: UITextField!
     @IBOutlet weak var RoomNameTitle: UILabel!
     @IBOutlet weak var PopupView: UIView!
-    
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         RoomNameTitle.font = UIFont(name: "07NikumaruFont", size: 28)

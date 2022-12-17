@@ -12,7 +12,12 @@ import AVFoundation
 class TitleViewController: UIViewController {
     
     var titleCallPlayer: AVAudioPlayer?
-    
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅

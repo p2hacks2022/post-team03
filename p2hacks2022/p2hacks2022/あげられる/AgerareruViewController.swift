@@ -21,12 +21,18 @@ class AgerareruViewController: UIViewController {
     let TabIconY = 695
     let TabBarY = 690
     
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         //スクリーンの高さ
-//        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        //        let screenHeight = Float(UIScreen.main.bounds.size.height)
         //それぞれUIの画面に対する中央配置するための値
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
         let widthTabBarCenter = (screenWidth - 315) / 2
