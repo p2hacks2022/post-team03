@@ -30,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOg-7w-yIJ">
-                                        <rect key="frame" x="167" y="232" width="145" height="65"/>
+                                        <rect key="frame" x="166" y="232" width="146" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="作る"/>
@@ -46,18 +46,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xJi-i7-QJ4">
-                                        <rect key="frame" x="55" y="176" width="48" height="31"/>
+                                        <rect key="frame" x="55" y="176" width="47" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公開部屋にする" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anx-V8-dAh">
-                                        <rect key="frame" x="77" y="162" width="221" height="58"/>
+                                        <rect key="frame" x="75" y="162" width="222" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="ここに入力" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WiU-Zc-HSE">
-                                        <rect key="frame" x="22" y="87" width="276" height="55"/>
+                                        <rect key="frame" x="20" y="87" width="277" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -74,6 +74,7 @@
                         <outlet property="checkPublic" destination="anx-V8-dAh" id="6DW-r4-Uy6"/>
                         <outlet property="popupTitle" destination="qYj-px-2Je" id="fNX-Kd-p1I"/>
                         <outlet property="popupView" destination="Pim-LU-NeH" id="tQF-BK-dhF"/>
+                        <outlet property="publicCheck" destination="xJi-i7-QJ4" id="lW4-eB-e8d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

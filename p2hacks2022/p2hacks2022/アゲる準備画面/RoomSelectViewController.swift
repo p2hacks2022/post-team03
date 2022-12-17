@@ -12,13 +12,15 @@ class RoomSelectViewController: UIViewController {
     
     @IBOutlet weak var RoomSelectTitle: UILabel!
     @IBOutlet weak var BackButton: UIButton!
+    @IBOutlet weak var sevenRoomBackView: UIView!
     @IBOutlet weak var SearchRoomName: UITextField!
     let TitleY = 80
     let SearchFieldY = 170
-    
     var numCount = 0
     let dt = Date()
     let dateFormatter = DateFormatter()
+    var sevenCounter = 1
+    var roomNameData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,37 +33,38 @@ class RoomSelectViewController: UIViewController {
                 return
             }
             if let dic = snapshot?.value as? [String:AnyObject]{
-                print("データの個数は....")
-                print(dic["numCount"] as? Int ?? "Unknown")
                 self.numCount = (dic["numCount"] as? Int ?? -1)
             }
         })
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {//2秒後、romename等を最新のものから7つ取得
-            
-            for i in 0..<7{
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {//2秒後、romename等を最新のものから7つ取得
+            for i in 0..<self.numCount{
                 ref.child("age_room").child("0\(self.numCount - i)").getData(completion:  { error, snapshot in
                     guard error == nil else {
                         print(error!.localizedDescription)
                         return
                     }
                     if let dic = snapshot?.value as? [String:AnyObject]{
-                        print(dic["id"] as? Int ?? -1)
-                        print(dic["roomname"] as? String ?? -1)
-                        print(dic["Day"] as? String ?? -1)
-                        print("\n")
+                        let checkPublic = dic["public"] as? Bool ?? false
+                        if checkPublic == true && self.sevenCounter <= 7 {
+                            self.roomNameData.append(dic["roomname"] as? String ?? "なし")
+                            self.sevenCounter = self.sevenCounter + 1
+                        }
                     }
-                    
                 })
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                print(self.roomNameData)
             }
         }
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         let TitleWidth = screenWidth - 97
         //スクリーンの高さ
-        //        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        let screenHeight = Float(UIScreen.main.bounds.size.height)
         let widthTitleCenter = (screenWidth - TitleWidth) / 2
         
+        sevenRoomBackView.frame = CGRect(x: Int(widthTitleCenter), y: SearchFieldY + 65 , width: Int(TitleWidth), height: Int(screenHeight - 312))
+        sevenRoomBackView.layer.cornerRadius = 10
         RoomSelectTitle.frame = CGRect(x: Int(widthTitleCenter), y: TitleY, width: Int(TitleWidth), height: 70)
         RoomSelectTitle.font = UIFont(name: "07NikumaruFont", size: 27)
         SearchRoomName.frame = CGRect(x: Int(widthTitleCenter), y: SearchFieldY, width: Int(TitleWidth), height: 55)
