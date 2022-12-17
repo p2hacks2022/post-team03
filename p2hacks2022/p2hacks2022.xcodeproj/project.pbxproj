@@ -16,15 +16,15 @@
 		7F1B1DAA29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
 		7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B1DA929473BC90057D568 /* PastAge.storyboard */; };
+		7F2FF897294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
+		7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
+		7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
 		7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F84294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
 		7F632F85294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
 		7F632F86294BFFB600578F01 /* RoomSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F83294BFFB600578F01 /* RoomSelect.storyboard */; };
-		7F632F99294D1C7F00578F01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F98294D1C7F00578F01 /* GoogleService-Info.plist */; };
-		7F632F9A294D1C7F00578F01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F98294D1C7F00578F01 /* GoogleService-Info.plist */; };
-		7F632F9B294D1C7F00578F01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F632F98294D1C7F00578F01 /* GoogleService-Info.plist */; };
 		7F632F9E294D1F0900578F01 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7F632F9D294D1F0900578F01 /* FirebaseAnalytics */; };
 		7F632FA0294D1F0900578F01 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7F632F9F294D1F0900578F01 /* FirebaseDatabase */; };
 		7F632FA3294D20D500578F01 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 7F632FA2294D20D500578F01 /* SwiftyGif */; };
@@ -115,14 +115,14 @@
 		7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Agerareru.storyboard; sourceTree = "<group>"; };
 		7F1B1DA429473B9B0057D568 /* PastAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastAgeViewController.swift; sourceTree = "<group>"; };
 		7F1B1DA929473BC90057D568 /* PastAge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastAge.storyboard; sourceTree = "<group>"; };
+		7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
 		7F632F83294BFFB600578F01 /* RoomSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSelect.storyboard; sourceTree = "<group>"; };
-		7F632F98294D1C7F00578F01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7F632FA5294D236100578F01 /* どうあげ 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "どうあげ 1.gif"; path = "../../../image_file/どうあげ 1.gif"; sourceTree = "<group>"; };
-		7F632FA9294D236B00578F01 /* 縦持ちロード.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "縦持ちロード.gif"; path = "../../../image_file/縦持ちロード.gif"; sourceTree = "<group>"; };
-		7F632FAD294D238500578F01 /* 横持ちロード.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "横持ちロード.gif"; path = "../../../image_file/横持ちロード.gif"; sourceTree = "<group>"; };
-		7F632FB1294D23A600578F01 /* アガる 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "アガる 1.gif"; path = "../../../image_file/アゲられる部屋/アガる 1.gif"; sourceTree = "<group>"; };
-		7F632FB5294D23AF00578F01 /* アゲる手 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "アゲる手 1.gif"; path = "../../../image_file/アゲる/アゲる手 1.gif"; sourceTree = "<group>"; };
+		7F632FA5294D236100578F01 /* どうあげ 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "どうあげ 1.gif"; sourceTree = "<group>"; };
+		7F632FA9294D236B00578F01 /* 縦持ちロード.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "縦持ちロード.gif"; sourceTree = "<group>"; };
+		7F632FAD294D238500578F01 /* 横持ちロード.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "横持ちロード.gif"; sourceTree = "<group>"; };
+		7F632FB1294D23A600578F01 /* アガる 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "アガる 1.gif"; sourceTree = "<group>"; };
+		7F632FB5294D23AF00578F01 /* アゲる手 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "アゲる手 1.gif"; sourceTree = "<group>"; };
 		7F66CD5A294B41300068BCEC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		7F66CD5E294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruPubilcRoomViewController.swift; sourceTree = "<group>"; };
 		7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPublicRoom.storyboard; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 			path = "過去あげ";
 			sourceTree = "<group>";
 		};
-		7F632FA4294D233500578F01 /* GIF */ = {
+		7F2FF895294D6081000752D2 /* gif */ = {
 			isa = PBXGroup;
 			children = (
 				7F632FAD294D238500578F01 /* 横持ちロード.gif */,
@@ -199,7 +199,7 @@
 				7F632FB1294D23A600578F01 /* アガる 1.gif */,
 				7F632FA5294D236100578F01 /* どうあげ 1.gif */,
 			);
-			path = GIF;
+			path = gif;
 			sourceTree = "<group>";
 		};
 		7F8BAA2B2944683900AC32CB = {
@@ -225,8 +225,8 @@
 		7F8BAA362944683900AC32CB /* p2hacks2022 */ = {
 			isa = PBXGroup;
 			children = (
-				7F632FA4294D233500578F01 /* GIF */,
-				7F632F98294D1C7F00578F01 /* GoogleService-Info.plist */,
+				7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */,
+				7F2FF895294D6081000752D2 /* gif */,
 				7F66CD5A294B41300068BCEC /* UIColor.swift */,
 				7F8BAA452944683A00AC32CB /* LaunchScreen.storyboard */,
 				7F8BAA372944683900AC32CB /* AppDelegate.swift */,
@@ -429,7 +429,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F632F99294D1C7F00578F01 /* GoogleService-Info.plist in Resources */,
 				7F632FB2294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
 				7F632FA6294D236100578F01 /* どうあげ 1.gif in Resources */,
@@ -441,6 +440,7 @@
 				7F8BAA7D29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FAA294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F66CD70294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
+				7F2FF897294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
 				7F66CD67294B6C340068BCEC /* Assets.xcassets in Resources */,
 				7FD113EF2949FB95007497BE /* AgeruPopup.storyboard in Resources */,
 				7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */,
@@ -456,6 +456,7 @@
 			files = (
 				7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAB294D236B00578F01 /* 縦持ちロード.gif in Resources */,
+				7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FAF294D238500578F01 /* 横持ちロード.gif in Resources */,
 				7F1B1DAB29473BC90057D568 /* PastAge.storyboard in Resources */,
@@ -466,7 +467,6 @@
 				7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB7294D23AF00578F01 /* アゲる手 1.gif in Resources */,
 				7F632FA7294D236100578F01 /* どうあげ 1.gif in Resources */,
-				7F632F9A294D1C7F00578F01 /* GoogleService-Info.plist in Resources */,
 				7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA229473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
@@ -478,6 +478,7 @@
 			files = (
 				7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAC294D236B00578F01 /* 縦持ちロード.gif in Resources */,
+				7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FB0294D238500578F01 /* 横持ちロード.gif in Resources */,
 				7F1B1DAC29473BC90057D568 /* PastAge.storyboard in Resources */,
@@ -488,7 +489,6 @@
 				7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB8294D23AF00578F01 /* アゲる手 1.gif in Resources */,
 				7F632FA8294D236100578F01 /* どうあげ 1.gif in Resources */,
-				7F632F9B294D1C7F00578F01 /* GoogleService-Info.plist in Resources */,
 				7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
 				7F1B1DA329473B0E0057D568 /* Agerareru.storyboard in Resources */,
 			);
@@ -710,8 +710,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD679H73U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DO アゲ！";
@@ -720,13 +722,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Title;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lodging.Uehara.p2hacks2022;
+				PRODUCT_BUNDLE_IDENTIFIER = Lodging.Uehara.p2hacks2022a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -740,6 +744,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD679H73U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = p2hacks2022/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DO アゲ！";
@@ -748,12 +753,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Title;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Lodging.Uehara.p2hacks2022;
+				PRODUCT_BUNDLE_IDENTIFIER = Lodging.Uehara.p2hacks2022a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
