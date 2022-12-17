@@ -7,8 +7,11 @@
 
 import UIKit
 import SwiftyGif
+import AVFoundation
 
 class TitleViewController: UIViewController {
+    
+    var titleCallPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,10 +41,20 @@ class TitleViewController: UIViewController {
         view.addSubview(titleLogoView)
     }
     @IBAction func tapScreen(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "AgeruSet", bundle: nil)
-        let start = storyboard.instantiateViewController(withIdentifier: "privateage") as! AgeruSetController
-        start.modalTransitionStyle = .crossDissolve
-        start.modalPresentationStyle = .fullScreen
-        self.present(start, animated: true, completion: nil)
+        if let soundURL = Bundle.main.url(forResource: "title", withExtension: "mp3") {
+            do {
+                titleCallPlayer = try AVAudioPlayer(contentsOf: soundURL)
+                titleCallPlayer?.play()
+            } catch {
+                print("error")
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            let storyboard = UIStoryboard(name: "AgeruSet", bundle: nil)
+            let start = storyboard.instantiateViewController(withIdentifier: "privateage") as! AgeruSetController
+            start.modalTransitionStyle = .crossDissolve
+            start.modalPresentationStyle = .fullScreen
+            self.present(start, animated: true, completion: nil)
+        }
     }
 }

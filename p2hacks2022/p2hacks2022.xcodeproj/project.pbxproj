@@ -19,6 +19,9 @@
 		7F2FF897294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
 		7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
 		7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */; };
+		7F2FF89B294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
+		7F2FF89C294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
+		7F2FF89D294D6782000752D2 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF89A294D6782000752D2 /* title.mp3 */; };
 		7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
@@ -116,6 +119,7 @@
 		7F1B1DA429473B9B0057D568 /* PastAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastAgeViewController.swift; sourceTree = "<group>"; };
 		7F1B1DA929473BC90057D568 /* PastAge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastAge.storyboard; sourceTree = "<group>"; };
 		7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F2FF89A294D6782000752D2 /* title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = title.mp3; sourceTree = "<group>"; };
 		7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
 		7F632F83294BFFB600578F01 /* RoomSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSelect.storyboard; sourceTree = "<group>"; };
 		7F632FA5294D236100578F01 /* どうあげ 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "どうあげ 1.gif"; sourceTree = "<group>"; };
@@ -226,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				7F2FF896294D63AA000752D2 /* GoogleService-Info.plist */,
+				7F2FF89A294D6782000752D2 /* title.mp3 */,
 				7F2FF895294D6081000752D2 /* gif */,
 				7F66CD5A294B41300068BCEC /* UIColor.swift */,
 				7F8BAA452944683A00AC32CB /* LaunchScreen.storyboard */,
@@ -432,6 +437,7 @@
 				7F632FB2294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
 				7F632FA6294D236100578F01 /* どうあげ 1.gif in Resources */,
+				7F2FF89B294D6782000752D2 /* title.mp3 in Resources */,
 				7F632FB6294D23AF00578F01 /* アゲる手 1.gif in Resources */,
 				7F632F84294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F8BAA472944683A00AC32CB /* LaunchScreen.storyboard in Resources */,
@@ -463,6 +469,7 @@
 				7F66CD64294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
 				7F632F85294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F66CD66294B6C340068BCEC /* Assets.xcassets in Resources */,
+				7F2FF89C294D6782000752D2 /* title.mp3 in Resources */,
 				7F632FB3294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB7294D23AF00578F01 /* アゲる手 1.gif in Resources */,
@@ -485,6 +492,7 @@
 				7F66CD65294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
 				7F632F86294BFFB600578F01 /* RoomSelect.storyboard in Resources */,
 				7F66CD68294B6C340068BCEC /* Assets.xcassets in Resources */,
+				7F2FF89D294D6782000752D2 /* title.mp3 in Resources */,
 				7F632FB4294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB8294D23AF00578F01 /* アゲる手 1.gif in Resources */,

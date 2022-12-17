@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 class CreateRoomViewController: UIViewController {
 
@@ -18,6 +19,8 @@ class CreateRoomViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         popupTitle.font = UIFont(name: "07NikumaruFont", size: 28)
         checkPublic.font = UIFont(name: "07NikumaruFont", size: 22)
         popupView.layer.cornerRadius = 10
@@ -28,7 +31,17 @@ class CreateRoomViewController: UIViewController {
     }
     
     @IBAction func tapRoomCreate(_ sender: Any) {
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        if InRoomName.text != "" {
+            ref.child("age_room/01").setValue(
+                ["roomname":InRoomName.text!,"Day":"2001/09/02","public": true, "agecount": 0]
+            )
+        }
         
     }
     
+    private func SetRoomData() {
+        
+    }
 }
