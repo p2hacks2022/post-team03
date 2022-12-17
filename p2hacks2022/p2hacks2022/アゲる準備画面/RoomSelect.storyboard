@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,6 +40,11 @@
                                     <action selector="tapBackButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="1aM-Tr-aXu"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BFF-wb-ETH">
+                                <rect key="frame" x="57" y="253" width="278" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="AccentColor"/>
@@ -47,6 +53,7 @@
                         <outlet property="BackButton" destination="Gj3-GX-3iT" id="9oa-qG-FzQ"/>
                         <outlet property="RoomSelectTitle" destination="ACr-Ol-jiM" id="GhK-ei-24u"/>
                         <outlet property="SearchRoomName" destination="Qij-Uc-VNd" id="dxC-RQ-E7K"/>
+                        <outlet property="sevenRoomBackView" destination="BFF-wb-ETH" id="5aC-tb-gk3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,5 +66,8 @@
         <namedColor name="AccentColor">
             <color red="1" green="0.74509803921568629" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
