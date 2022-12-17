@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Firebase
 
 class RoomSelectViewController: UIViewController {
     
@@ -16,13 +16,17 @@ class RoomSelectViewController: UIViewController {
     let TitleY = 80
     let SearchFieldY = 170
     
+    var numCount = 0
+    let dt = Date()
+    let dateFormatter = DateFormatter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         let TitleWidth = screenWidth - 97
         //スクリーンの高さ
-//        let screenHeight = Float(UIScreen.main.bounds.size.height)
+        //        let screenHeight = Float(UIScreen.main.bounds.size.height)
         let widthTitleCenter = (screenWidth - TitleWidth) / 2
         
         RoomSelectTitle.frame = CGRect(x: Int(widthTitleCenter), y: TitleY, width: Int(TitleWidth), height: 70)
@@ -34,5 +38,38 @@ class RoomSelectViewController: UIViewController {
     }
     @IBAction func tapBackButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        
+        ref.child("count").getData(completion:  { error, snapshot in
+            guard error == nil else {
+                print(error!.localizedDescription)
+                return
+            }
+            if let dic = snapshot?.value as? [String:AnyObject]{
+                print("データの個数は....")
+                print(dic["numCount"] as? Int ?? "Unknown")
+                self.numCount = (dic["numCount"] as? Int ?? -1)
+            }
+        })
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {//2秒後、romename等を最新のものから7つ取得
+            
+            for i in 0..<7{
+                ref.child("age_room").child("0\(self.numCount - i)").getData(completion:  { error, snapshot in
+                    guard error == nil else {
+                        print(error!.localizedDescription)
+                        return
+                    }
+                    if let dic = snapshot?.value as? [String:AnyObject]{
+                        print(dic["id"] as? Int ?? -1)
+                        print(dic["roomname"] as? String ?? -1)
+                        print(dic["Day"] as? String ?? -1)
+                        print("\n")
+                    }
+                    
+                })
+            }
+        }
     }
 }
