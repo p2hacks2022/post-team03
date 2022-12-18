@@ -60,6 +60,7 @@ class AgeruViewController: UIViewController {
         roomNameLabel.font = UIFont(name: "07NikumaruFont", size: 28)
         roomNameLabel.frame = CGRect(x: Int(widthRoomNameCenter), y: 65, width: Int((screenHeight / 3) - 10), height: 40)
         
+
         let age = UILabel()
         age.text = "アゲ"
         age.textAlignment = NSTextAlignment.center
@@ -76,13 +77,11 @@ class AgeruViewController: UIViewController {
         nokoriLabel.textColor = UIColor(hex: "ffffff")
         nokoriLabel.frame = CGRect(x: 30, y: 30, width: 200, height: 40)
         
-        
         view.addSubview(imageView)
         view.addSubview(HukidashiView)
         view.addSubview(roomNameLabel)
         view.addSubview(age)
         view.addSubview(nokoriLabel)
-        
         
         timerStart() //タイマー呼び出し
     }

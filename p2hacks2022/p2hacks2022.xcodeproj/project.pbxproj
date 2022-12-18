@@ -107,6 +107,8 @@
 		7FD113F52949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
 		7FD113F62949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
 		7FD113F72949FBCF007497BE /* AgeruPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */; };
+		C7001250294E839500C902F1 /* AgaruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700124F294E839500C902F1 /* AgaruViewController.swift */; };
+		C7001252294E84F500C902F1 /* Agaru.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7001251294E84F500C902F1 /* Agaru.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +172,8 @@
 		7FD113EE2949FB95007497BE /* AgeruPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPopup.storyboard; sourceTree = "<group>"; };
 		7FD113F42949FBCF007497BE /* AgeruPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeruPopupViewController.swift; sourceTree = "<group>"; };
 		7FD113F92949FD6A007497BE /* niku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = niku.ttf; sourceTree = "<group>"; };
+		C700124F294E839500C902F1 /* AgaruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AgaruViewController.swift; path = p2hacks2022/AgaruViewController.swift; sourceTree = SOURCE_ROOT; };
+		C7001251294E84F500C902F1 /* Agaru.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Agaru.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +332,8 @@
 				7F1B1DA029473B0E0057D568 /* Agerareru.storyboard */,
 				7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */,
 				7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */,
+				C700124F294E839500C902F1 /* AgaruViewController.swift */,
+				C7001251294E84F500C902F1 /* Agaru.storyboard */,
 			);
 			name = "あげられる";
 			path = "あげられる";
@@ -473,6 +479,7 @@
 				7F2FF8A3294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA3F2944683900AC32CB /* Title.storyboard in Resources */,
 				7F66CD63294B63FD0068BCEC /* AgeruPublicRoom.storyboard in Resources */,
+				C7001252294E84F500C902F1 /* Agaru.storyboard in Resources */,
 				7F1B1DA129473B0E0057D568 /* Agerareru.storyboard in Resources */,
 				7F1B1DAA29473BC90057D568 /* PastAge.storyboard in Resources */,
 			);
@@ -536,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */,
+				C7001250294E839500C902F1 /* AgaruViewController.swift in Sources */,
 				7F66CD6C294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
 				7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F1B1DA529473B9B0057D568 /* PastAgeViewController.swift in Sources */,
