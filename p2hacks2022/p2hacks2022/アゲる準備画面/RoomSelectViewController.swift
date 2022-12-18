@@ -21,6 +21,7 @@ class RoomSelectViewController: UIViewController {
     let dateFormatter = DateFormatter()
     var sevenCounter = 1
     var roomNameData = [String]()
+    var idData = [Int]()
     var tagInt = 0
     
     override var shouldAutorotate: Bool {
@@ -76,6 +77,7 @@ class RoomSelectViewController: UIViewController {
                         let checkPublic = dic["public"] as? Bool ?? false
                         if checkPublic == true && self.sevenCounter <= 7 {
                             self.roomNameData.append(dic["roomname"] as? String ?? "なし")
+                            self.idData.append(dic["id"] as? Int ?? 0)
                             self.sevenCounter = self.sevenCounter + 1
                         }
                     }
@@ -96,7 +98,6 @@ class RoomSelectViewController: UIViewController {
                     button.tag = Int(self.tagInt)
                     button.addTarget(self, action: #selector(RoomSelectViewController.tapRoomButton), for: .touchUpInside)
                     
-                    
                     nameLabel.text = Name
                     nameLabel.font = UIFont(name: "07NikumaruFont", size: 27)
                     nameLabel.textColor = UIColor(hex: "ffffff")
@@ -114,8 +115,16 @@ class RoomSelectViewController: UIViewController {
     
     @objc func tapRoomButton(_ sender: UIButton) {
         print(self.roomNameData[sender.tag])
-        
+        print(self.idData[sender.tag])
+        let storyboard = UIStoryboard(name: "SetUpGif", bundle: nil)
+        let letsgo = storyboard.instantiateViewController(withIdentifier: "setupgif") as! SetUpGifViewController
+        letsgo.modalTransitionStyle = .crossDissolve
+        letsgo.modalPresentationStyle = .fullScreen
+        letsgo.id = idData[sender.tag]
+        letsgo.roomName = roomNameData[sender.tag]
+        self.present(letsgo, animated: true, completion: nil)
         sender.isSelected = !sender.isSelected
+            
     }
     
     @IBAction func tapBackButton(_ sender: Any) {
