@@ -116,7 +116,10 @@ class AgeruViewController: UIViewController {
             timeLabel.text = ("0")
             //タイマーを止める
             createTimer?.invalidate()
-            
+            let storyboard = UIStoryboard(name: "Result", bundle: nil)
+            let selectTabViewA = storyboard.instantiateViewController(withIdentifier: "result") as! ResultViewController
+            selectTabViewA.roomName = roomName
+            self.present(selectTabViewA, animated: true, completion: nil)
             //ここに時間切れの場合の処理を記述
         }
     }
