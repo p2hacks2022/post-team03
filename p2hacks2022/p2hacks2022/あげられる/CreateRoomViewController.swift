@@ -54,7 +54,7 @@ class CreateRoomViewController: UIViewController {
                 self.numCount = (dic["numCount"] as? Int ?? -1)
             }
         })
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {//1.5秒後、入力されたroomname等をset。その後、idを取得
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {//1.5秒後、入力されたroomname等をset。その後、idを取得
             if self.InRoomName.text != "" {
                 switch self.publicCheck.isOn {
                 case true:
