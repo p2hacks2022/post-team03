@@ -77,8 +77,6 @@ class AgeruViewController: UIViewController {
         nokoriLabel.textColor = UIColor(hex: "ffffff")
         nokoriLabel.frame = CGRect(x: 30, y: 30, width: 200, height: 40)
         
-        
-
         view.addSubview(imageView)
         view.addSubview(HukidashiView)
         view.addSubview(roomNameLabel)
