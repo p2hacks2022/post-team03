@@ -80,8 +80,6 @@ class AgeruViewController: UIViewController {
         view.addSubview(imageView)
         view.addSubview(HukidashiView)
         view.addSubview(roomNameLabel)
-        
-        view.addSubview(ageCountLabel)
         view.addSubview(age)
         view.addSubview(nokoriLabel)
         
