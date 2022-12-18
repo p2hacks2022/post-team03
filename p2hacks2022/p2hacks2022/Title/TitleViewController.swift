@@ -20,6 +20,7 @@ class TitleViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(supportedInterfaceOrientations)
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         //スクリーンの高さ

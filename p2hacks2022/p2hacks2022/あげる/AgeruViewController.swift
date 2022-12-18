@@ -44,8 +44,8 @@ class AgeruViewController: UIViewController {
         roomNameLabel.frame = CGRect(x: Int(widthRoomNameCenter), y: 65, width: Int((screenHeight / 3) - 10), height: 40)
         
         
-        let ageCenter = (screenHeight - 89)
-        let ageCountLabel = UILabel()
+//        let ageCenter = (screenHeight - 89)
+//        let ageCountLabel = UILabel()
         //        ageCountLabel.text =
         //        ageCountLabel.textAlignment = NSTextAlignment.center
         //        ageCountLabel.font = UIFont(name: "07NikumaruFont", size: )
@@ -70,7 +70,7 @@ class AgeruViewController: UIViewController {
         
         
         
-        let timeLabel = UILabel()
+//        let timeLabel = UILabel()
         //        timeLabel.text =
         //        timeLabel.textAlignment = NSTextAlignment.center
         //        timeLabel.font = UIFont(name: "07NikumaruFont", size: )
@@ -86,5 +86,7 @@ class AgeruViewController: UIViewController {
         view.addSubview(age)
         view.addSubview(nokoriLabel)
         //        view.addSubview(timeLabel)
+        
+        
     }
 }
