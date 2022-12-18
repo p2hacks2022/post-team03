@@ -11,7 +11,6 @@ import Firebase
 
 class CreateRoomViewController: UIViewController {
     
-    
     @IBOutlet weak var publicCheck: UISwitch!
     @IBOutlet weak var popupView: UIView!
     @IBOutlet weak var popupTitle: UILabel!
@@ -92,5 +91,8 @@ class CreateRoomViewController: UIViewController {
             start.modalPresentationStyle = .fullScreen
             self.present(start, animated: true, completion: nil)
         }
+    }
+    @IBAction func didTapView(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
     }
 }

@@ -34,6 +34,12 @@
 		7F2FF8AB294E7C99000752D2 /* SetUpGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AA294E7C99000752D2 /* SetUpGif.storyboard */; };
 		7F2FF8AC294E7C99000752D2 /* SetUpGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AA294E7C99000752D2 /* SetUpGif.storyboard */; };
 		7F2FF8AD294E7C99000752D2 /* SetUpGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AA294E7C99000752D2 /* SetUpGif.storyboard */; };
+		7F2FF8AF294EBF3C000752D2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */; };
+		7F2FF8B0294EBF3C000752D2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */; };
+		7F2FF8B1294EBF3C000752D2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */; };
+		7F2FF8B3294EBF4C000752D2 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8B2294EBF4C000752D2 /* Result.storyboard */; };
+		7F2FF8B4294EBF4C000752D2 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8B2294EBF4C000752D2 /* Result.storyboard */; };
+		7F2FF8B5294EBF4C000752D2 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FF8B2294EBF4C000752D2 /* Result.storyboard */; };
 		7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F81294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
 		7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */; };
@@ -138,6 +144,8 @@
 		7F2FF8A2294E75E8000752D2 /* SelectCheck.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectCheck.storyboard; sourceTree = "<group>"; };
 		7F2FF8A6294E7C81000752D2 /* SetUpGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpGifViewController.swift; sourceTree = "<group>"; };
 		7F2FF8AA294E7C99000752D2 /* SetUpGif.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetUpGif.storyboard; sourceTree = "<group>"; };
+		7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		7F2FF8B2294EBF4C000752D2 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
 		7F632F7F294BFFAE00578F01 /* RoomSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectViewController.swift; sourceTree = "<group>"; };
 		7F632F83294BFFB600578F01 /* RoomSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSelect.storyboard; sourceTree = "<group>"; };
 		7F632FA5294D236100578F01 /* どうあげ 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "どうあげ 1.gif"; sourceTree = "<group>"; };
@@ -320,6 +328,8 @@
 				7F2FF8AA294E7C99000752D2 /* SetUpGif.storyboard */,
 				7F8BAA7829473A1A00AC32CB /* AgeruViewController.swift */,
 				7F8BAA7C29473A2800AC32CB /* Ageru.storyboard */,
+				7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */,
+				7F2FF8B2294EBF4C000752D2 /* Result.storyboard */,
 			);
 			name = "あげる";
 			path = "あげる";
@@ -460,6 +470,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2FF8B3294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F632FB2294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
 				7F632FA6294D236100578F01 /* どうあげ 1.gif in Resources */,
@@ -492,6 +503,7 @@
 				7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAB294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F2FF8B4294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F2FF8A4294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FAF294D238500578F01 /* 横持ちロード.gif in Resources */,
@@ -517,6 +529,7 @@
 				7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAC294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F2FF8B5294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F2FF8A5294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FB0294D238500578F01 /* 横持ちロード.gif in Resources */,
@@ -550,6 +563,7 @@
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F66CD5F294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */,
+				7F2FF8AF294EBF3C000752D2 /* ResultViewController.swift in Sources */,
 				7F632F80294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,
 				7F8BAA422944683900AC32CB /* p2hacks2022.xcdatamodeld in Sources */,
 				7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */,
@@ -565,6 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2FF8B0294EBF3C000752D2 /* ResultViewController.swift in Sources */,
 				7F2FF8A0294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 				7F8BAA522944683B00AC32CB /* p2hacks2022Tests.swift in Sources */,
 				7F1B1DA629473B9B0057D568 /* PastAgeViewController.swift in Sources */,
@@ -593,6 +608,7 @@
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F2FF8A1294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,
+				7F2FF8B1294EBF3C000752D2 /* ResultViewController.swift in Sources */,
 				7F66CD61294B63EC0068BCEC /* AgeruPubilcRoomViewController.swift in Sources */,
 				7F632F82294BFFAE00578F01 /* RoomSelectViewController.swift in Sources */,
 				7F2FF8A9294E7C81000752D2 /* SetUpGifViewController.swift in Sources */,
@@ -771,6 +787,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -802,6 +819,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

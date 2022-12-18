@@ -48,6 +48,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="AccentColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="NHs-xP-ygC" appends="YES" id="GjF-9I-OXX"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="BackButton" destination="Gj3-GX-3iT" id="9oa-qG-FzQ"/>
@@ -57,6 +61,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="NHs-xP-ygC">
+                    <connections>
+                        <action selector="didTapView:" destination="Y6W-OH-hqX" id="c2t-xm-8Ga"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="46.564885496183201" y="-27.464788732394368"/>
         </scene>

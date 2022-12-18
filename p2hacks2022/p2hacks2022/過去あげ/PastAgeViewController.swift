@@ -71,6 +71,8 @@ class PastAgeViewController: UIViewController {
         selectTabView.modalPresentationStyle = .fullScreen
         self.present(selectTabView, animated: false, completion: nil)
     }
-    
+    @IBAction func didTapView(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
     
 }
