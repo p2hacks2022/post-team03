@@ -60,14 +60,6 @@ class AgeruViewController: UIViewController {
         roomNameLabel.font = UIFont(name: "07NikumaruFont", size: 28)
         roomNameLabel.frame = CGRect(x: Int(widthRoomNameCenter), y: 65, width: Int((screenHeight / 3) - 10), height: 40)
         
-        
-        let ageCountLabel = UILabel()
-        //        ageCountLabel.text =
-        //        ageCountLabel.textAlignment = NSTextAlignment.center
-        //        ageCountLabel.font = UIFont(name: "07NikumaruFont", size: )
-        //        ageCountLabel.textColor = UIColor(hex: "EF463F")
-        //        ageCountLabel.frame = CGRect(x: Int(ageCenter), y: <#T##Int#>, width: 89, height: <#T##Int#>)
-        
         let age = UILabel()
         age.text = "アゲ"
         age.textAlignment = NSTextAlignment.center
