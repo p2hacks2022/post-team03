@@ -54,7 +54,7 @@ class CreateRoomViewController: UIViewController {
                 self.numCount = (dic["numCount"] as? Int ?? -1)
             }
         })
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {//1.5秒後、入力されたroomname等をset。その後、idを取得
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {//1.5秒後、入力されたroomname等をset。その後、idを取得
             if self.InRoomName.text != "" {
                 switch self.publicCheck.isOn {
                 case true:
@@ -84,6 +84,13 @@ class CreateRoomViewController: UIViewController {
                     ["numCount": self.num]
                 )
             }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            let storyboard = UIStoryboard(name: "Agaru", bundle: nil)
+            let start = storyboard.instantiateViewController(withIdentifier: "agaru") as! AgaruViewController
+            start.modalTransitionStyle = .crossDissolve
+            start.modalPresentationStyle = .fullScreen
+            self.present(start, animated: true, completion: nil)
         }
     }
 }
