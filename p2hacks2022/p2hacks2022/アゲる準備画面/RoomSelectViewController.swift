@@ -67,7 +67,7 @@ class RoomSelectViewController: UIViewController {
                 self.numCount = (dic["numCount"] as? Int ?? -1)
             }
         })
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {//2秒後、romename等を最新のものから7つ取得
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {//2秒後、romename等を最新のものから7つ取得
             for i in 0..<self.numCount{
                 ref.child("age_room").child("0\(self.numCount - i)").getData(completion:  { error, snapshot in
                     guard error == nil else {
@@ -84,7 +84,7 @@ class RoomSelectViewController: UIViewController {
                     }
                 })
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                 for Name in self.roomNameData {
                     let button = UIButton()
                     let nameLabel = UILabel()
