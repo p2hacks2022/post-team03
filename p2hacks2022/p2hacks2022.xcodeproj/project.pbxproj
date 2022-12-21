@@ -81,6 +81,15 @@
 		7F66CD70294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
 		7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
 		7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */; };
+		7F7C2846294ED54100010284 /* finGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2845294ED54100010284 /* finGifViewController.swift */; };
+		7F7C2847294ED54100010284 /* finGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2845294ED54100010284 /* finGifViewController.swift */; };
+		7F7C2848294ED54100010284 /* finGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C2845294ED54100010284 /* finGifViewController.swift */; };
+		7F7C284A294ED55100010284 /* finGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2849294ED55100010284 /* finGif.storyboard */; };
+		7F7C284B294ED55100010284 /* finGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2849294ED55100010284 /* finGif.storyboard */; };
+		7F7C284C294ED55100010284 /* finGif.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C2849294ED55100010284 /* finGif.storyboard */; };
+		7F7C284E294EE4F400010284 /* 縦持ちロード1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C284D294EE4F400010284 /* 縦持ちロード1.gif */; };
+		7F7C284F294EE4F400010284 /* 縦持ちロード1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C284D294EE4F400010284 /* 縦持ちロード1.gif */; };
+		7F7C2850294EE4F400010284 /* 縦持ちロード1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C284D294EE4F400010284 /* 縦持ちロード1.gif */; };
 		7F8BAA382944683900AC32CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA372944683900AC32CB /* AppDelegate.swift */; };
 		7F8BAA3A2944683900AC32CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA392944683900AC32CB /* SceneDelegate.swift */; };
 		7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BAA3B2944683900AC32CB /* AgeruSetViewController.swift */; };
@@ -158,6 +167,9 @@
 		7F66CD62294B63FD0068BCEC /* AgeruPublicRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AgeruPublicRoom.storyboard; sourceTree = "<group>"; };
 		7F66CD6B294BCB7C0068BCEC /* CreateRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomViewController.swift; sourceTree = "<group>"; };
 		7F66CD6F294BCB890068BCEC /* CreateRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoom.storyboard; sourceTree = "<group>"; };
+		7F7C2845294ED54100010284 /* finGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finGifViewController.swift; sourceTree = "<group>"; };
+		7F7C2849294ED55100010284 /* finGif.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = finGif.storyboard; sourceTree = "<group>"; };
+		7F7C284D294EE4F400010284 /* 縦持ちロード1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "縦持ちロード1.gif"; sourceTree = "<group>"; };
 		7F8BAA342944683900AC32CB /* p2hacks2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p2hacks2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8BAA372944683900AC32CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8BAA392944683900AC32CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -225,6 +237,7 @@
 		7F2FF895294D6081000752D2 /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				7F7C284D294EE4F400010284 /* 縦持ちロード1.gif */,
 				7F632FAD294D238500578F01 /* 横持ちロード.gif */,
 				7F632FA9294D236B00578F01 /* 縦持ちロード.gif */,
 				7F632FB5294D23AF00578F01 /* アゲる手 1.gif */,
@@ -330,6 +343,8 @@
 				7F8BAA7C29473A2800AC32CB /* Ageru.storyboard */,
 				7F2FF8AE294EBF3C000752D2 /* ResultViewController.swift */,
 				7F2FF8B2294EBF4C000752D2 /* Result.storyboard */,
+				7F7C2845294ED54100010284 /* finGifViewController.swift */,
+				7F7C2849294ED55100010284 /* finGif.storyboard */,
 			);
 			name = "あげる";
 			path = "あげる";
@@ -473,6 +488,7 @@
 				7F2FF8B3294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F632FB2294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD55294A0CD60068BCEC /* niku.ttf in Resources */,
+				7F7C284A294ED55100010284 /* finGif.storyboard in Resources */,
 				7F632FA6294D236100578F01 /* どうあげ 1.gif in Resources */,
 				7F2FF89B294D6782000752D2 /* title.mp3 in Resources */,
 				7F632FB6294D23AF00578F01 /* アゲる手 1.gif in Resources */,
@@ -482,6 +498,7 @@
 				7F8BAA742947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F8BAA7D29473A2800AC32CB /* Ageru.storyboard in Resources */,
 				7F632FAA294D236B00578F01 /* 縦持ちロード.gif in Resources */,
+				7F7C284E294EE4F400010284 /* 縦持ちロード1.gif in Resources */,
 				7F66CD70294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F2FF897294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
 				7F66CD67294B6C340068BCEC /* Assets.xcassets in Resources */,
@@ -503,6 +520,7 @@
 				7F8BAA752947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAB294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF898294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F7C284B294ED55100010284 /* finGif.storyboard in Resources */,
 				7F2FF8B4294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F2FF8A4294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7E29473A2800AC32CB /* Ageru.storyboard in Resources */,
@@ -515,6 +533,7 @@
 				7F632FB3294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD71294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB7294D23AF00578F01 /* アゲる手 1.gif in Resources */,
+				7F7C284F294EE4F400010284 /* 縦持ちロード1.gif in Resources */,
 				7F632FA7294D236100578F01 /* どうあげ 1.gif in Resources */,
 				7F2FF8AC294E7C99000752D2 /* SetUpGif.storyboard in Resources */,
 				7FD113F22949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
@@ -529,6 +548,7 @@
 				7F8BAA762947399400AC32CB /* AgeruSet.storyboard in Resources */,
 				7F632FAC294D236B00578F01 /* 縦持ちロード.gif in Resources */,
 				7F2FF899294D63AA000752D2 /* GoogleService-Info.plist in Resources */,
+				7F7C284C294ED55100010284 /* finGif.storyboard in Resources */,
 				7F2FF8B5294EBF4C000752D2 /* Result.storyboard in Resources */,
 				7F2FF8A5294E75E8000752D2 /* SelectCheck.storyboard in Resources */,
 				7F8BAA7F29473A2800AC32CB /* Ageru.storyboard in Resources */,
@@ -541,6 +561,7 @@
 				7F632FB4294D23A600578F01 /* アガる 1.gif in Resources */,
 				7F66CD72294BCB890068BCEC /* CreateRoom.storyboard in Resources */,
 				7F632FB8294D23AF00578F01 /* アゲる手 1.gif in Resources */,
+				7F7C2850294EE4F400010284 /* 縦持ちロード1.gif in Resources */,
 				7F632FA8294D236100578F01 /* どうあげ 1.gif in Resources */,
 				7F2FF8AD294E7C99000752D2 /* SetUpGif.storyboard in Resources */,
 				7FD113F32949FBAE007497BE /* AgeruPopup.storyboard in Resources */,
@@ -558,6 +579,7 @@
 				7F8BAA3C2944683900AC32CB /* AgeruSetViewController.swift in Sources */,
 				C7001250294E839500C902F1 /* AgaruViewController.swift in Sources */,
 				7F66CD6C294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
+				7F7C2846294ED54100010284 /* finGifViewController.swift in Sources */,
 				7F8BAA7929473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F1B1DA529473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7F8BAA8129473A4400AC32CB /* AgerareruViewController.swift in Sources */,
@@ -584,6 +606,7 @@
 				7F8BAA522944683B00AC32CB /* p2hacks2022Tests.swift in Sources */,
 				7F1B1DA629473B9B0057D568 /* PastAgeViewController.swift in Sources */,
 				7FD113F02949FB9D007497BE /* AgeruSetViewController.swift in Sources */,
+				7F7C2847294ED54100010284 /* finGifViewController.swift in Sources */,
 				7F8BAA8229473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F2FF8A8294E7C81000752D2 /* SetUpGifViewController.swift in Sources */,
 				7F66CD6D294BCB7C0068BCEC /* CreateRoomViewController.swift in Sources */,
@@ -605,6 +628,7 @@
 				7F8BAA5E2944683B00AC32CB /* p2hacks2022UITestsLaunchTests.swift in Sources */,
 				7F8BAA8329473A4400AC32CB /* AgerareruViewController.swift in Sources */,
 				7F8BAA722947397100AC32CB /* TitleViewController.swift in Sources */,
+				7F7C2848294ED54100010284 /* finGifViewController.swift in Sources */,
 				7F8BAA7B29473A1A00AC32CB /* AgeruViewController.swift in Sources */,
 				7F2FF8A1294E75D1000752D2 /* SelectCheckViewController.swift in Sources */,
 				7FD113F12949FB9E007497BE /* AgeruSetViewController.swift in Sources */,

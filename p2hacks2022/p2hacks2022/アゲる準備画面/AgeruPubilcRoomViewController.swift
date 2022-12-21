@@ -36,7 +36,7 @@ class AgeruPubilcRoomViewController: UIViewController {
         //スクリーンの高さ
         //        let screenHeight = Float(UIScreen.main.bounds.size.height)
         //それぞれUIの画面に対する中央配置するための値
-        let widthGap = (screenWidth - Float(seg.frame.width)) / 2
+        let widthGap = (screenWidth - 265) / 2
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
         let widthHukidashiCenter = (screenWidth - 290) / 2
         let widthTabBarCenter = (screenWidth - Float(315)) / 2
@@ -55,7 +55,7 @@ class AgeruPubilcRoomViewController: UIViewController {
          背景色と選択時と非選択時のとフォント、色の設定
          それぞれのラベルのサイズと位置の設定
          */
-        seg.frame = CGRect.init(x: Int(widthGap), y:70, width: Int(seg.frame.width), height: 50)
+        seg.frame = CGRect.init(x: Int(widthGap), y:70, width: 265, height: 50)
         seg.backgroundColor = UIColor(hex: "ffffff")
         seg.selectedSegmentTintColor = UIColor(hex: "EF463F")
         

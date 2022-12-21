@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1H-2V-l13">
-                                        <rect key="frame" x="8" y="277" width="145" height="65"/>
+                                        <rect key="frame" x="8" y="277" width="144" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="退出"/>
@@ -29,19 +29,19 @@
                                             <action selector="taisyutuButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qae-jQ-SgJ"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="からあげ" translatesAutoresizingMaskIntoConstraints="NO" id="ph5-6H-1w3">
-                                        <rect key="frame" x="45" y="90" width="243" height="128"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="からあげ" translatesAutoresizingMaskIntoConstraints="NO" id="ph5-6H-1w3">
+                                        <rect key="frame" x="44" y="90" width="245" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-nA-7cj">
-                                        <rect key="frame" x="-1" y="0.0" width="336" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="336" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1C-5M-NDy">
-                                        <rect key="frame" x="181" y="277" width="146" height="65"/>
+                                        <rect key="frame" x="180" y="277" width="146" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="共有"/>
@@ -53,6 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                     </view>
                     <connections>
+                        <outlet property="karaage" destination="ph5-6H-1w3" id="aK2-G1-8dt"/>
                         <outlet property="popUp" destination="bvg-Sh-7Tg" id="nwy-ng-j3e"/>
                         <outlet property="roomTitle" destination="eLK-nA-7cj" id="pRY-Cc-9s8"/>
                     </connections>
@@ -63,7 +64,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="からあげ" width="992" height="742"/>
+        <image name="からあげ" width="992" height="742"/>
         <image name="共有" width="573" height="224"/>
         <image name="退出" width="572" height="224"/>
         <systemColor name="systemBackgroundColor">

@@ -84,12 +84,14 @@ class CreateRoomViewController: UIViewController {
                 )
             }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-            let storyboard = UIStoryboard(name: "Agaru", bundle: nil)
-            let start = storyboard.instantiateViewController(withIdentifier: "agaru") as! AgaruViewController
-            start.modalTransitionStyle = .crossDissolve
-            start.modalPresentationStyle = .fullScreen
-            self.present(start, animated: true, completion: nil)
+        if self.InRoomName.text != "" {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                let storyboard = UIStoryboard(name: "Agaru", bundle: nil)
+                let start = storyboard.instantiateViewController(withIdentifier: "agaru") as! AgaruViewController
+                start.modalTransitionStyle = .crossDissolve
+                start.modalPresentationStyle = .fullScreen
+                self.present(start, animated: true, completion: nil)
+            }
         }
     }
     @IBAction func didTapView(_ sender: UITapGestureRecognizer) {

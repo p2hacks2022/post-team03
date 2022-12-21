@@ -9,7 +9,7 @@ import UIKit
 
 class ResultViewController: UIViewController {
     var roomName = ""
-    
+    @IBOutlet weak var karaage: UIImageView!
     @IBOutlet weak var popUp: UIView!
     @IBOutlet weak var roomTitle: UILabel!
     
@@ -26,14 +26,17 @@ class ResultViewController: UIViewController {
         //スクリーンの高さ
         let screenHeight = Float(UIScreen.main.bounds.size.height)
         roomTitle.text = "「"+roomName+"」"
+        roomTitle.font = UIFont(name: "07NikumaruFont", size: 35)
         popUp.frame = CGRect(x: Int((screenWidth - 335)/2), y: Int((screenHeight-350)/2), width: 335, height: 350)
         popUp.layer.cornerRadius = 10
+        karaage.frame = CGRect(x: Int((screenWidth-275)/2), y: Int((screenHeight-160)/2), width: 275, height: 160)
         view.addSubview(popUp)
+        view.addSubview(karaage)
     }
     
     @IBAction func taisyutuButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "AgeruSet", bundle: nil)
-        let selectTabViewA = storyboard.instantiateViewController(withIdentifier: "privateage") as! AgeruSetController
+        let storyboard = UIStoryboard(name: "finGif", bundle: nil)
+        let selectTabViewA = storyboard.instantiateViewController(withIdentifier: "fingif") as! finGifViewController
         selectTabViewA.modalTransitionStyle = .crossDissolve
         selectTabViewA.modalPresentationStyle = .fullScreen
         self.present(selectTabViewA, animated: true, completion: nil)

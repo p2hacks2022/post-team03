@@ -25,7 +25,7 @@ class AgeruViewController: UIViewController {
     var myMotionManager: CMMotionManager!
     
     var upCount = 0.0
-    var timeCount = 11 //タイマー秒数指定
+    var timeCount = 6 //タイマー秒数指定
     var createTimer:Timer?
     var count = 0
     var checkAgeCount = 0
@@ -96,7 +96,7 @@ class AgeruViewController: UIViewController {
     }
     @objc func countDown(sender:Timer) {
         timeCount -= 1
-        if timeCount == 10 {
+        if timeCount == 5 {
             age()
         }
         //残り時間をラベルに表示

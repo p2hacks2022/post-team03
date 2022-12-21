@@ -23,14 +23,17 @@ class AgeruSetController: UIViewController {
     let TabIconSize = 65
     let TabIconY = 695
     let TabBarY = 690
-    override var shouldAutorotate: Bool {
-        return false
-    }
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
+    override var shouldAutorotate: Bool {
+        return false
+    }
     override func viewDidLoad() {
+        print(supportedInterfaceOrientations)
         super.viewDidLoad()
+        
         //スクリーンの幅
         let screenWidth = Float(UIScreen.main.bounds.size.width)
         //スクリーンの高さ
@@ -38,7 +41,7 @@ class AgeruSetController: UIViewController {
         print(screenWidth)
         print(screenHeight)
         //それぞれUIの画面に対する中央配置するための値
-        let widthGap = (screenWidth - Float(seg.frame.width)) / 2
+        let widthGap = (screenWidth - 265) / 2
         let widthTabIconCeter = (screenWidth - Float(TabIconSize)) / 2
         let widthHukidashiCenter = (screenWidth - 290) / 2
         let widthTabBarCenter = (screenWidth - 315) / 2
@@ -58,7 +61,7 @@ class AgeruSetController: UIViewController {
          背景色と選択時と非選択時のとフォント、色の設定
          それぞれのラベルのサイズと位置の設定
          */
-        seg.frame = CGRect.init(x: Int(widthGap), y:70, width: Int(seg.frame.width), height: 50)
+        seg.frame = CGRect.init(x: Int(widthGap), y:70, width: 265, height: 50)
         seg.backgroundColor = UIColor(hex: "ffffff")
         seg.selectedSegmentTintColor = UIColor(hex: "EF463F")
         
@@ -69,6 +72,14 @@ class AgeruSetController: UIViewController {
         publicRoom.frame = CGRect(x: Int(widthGap) + 160, y: 70, width: 265, height: 50)
         publicRoom.textColor = UIColor(hex: "CCCCCC")
         publicRoom.font = UIFont(name: "07NikumaruFont", size: 20)
+        
+        view.addSubview(seg)
+        view.addSubview(publicRoom)
+        view.addSubview(privateRoom)
+        view.addSubview(TabBar)
+        view.addSubview(AgeruTab)
+        view.addSubview(AgaruTab)
+        view.addSubview(PastAgeTab)
     }
     
     @IBAction func tapSegment(_ sender: UISegmentedControl) {
